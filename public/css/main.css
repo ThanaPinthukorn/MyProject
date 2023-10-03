@@ -1,0 +1,73 @@
+body {
+    background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-03/plant-based-food-mc-220323-02-273c7b.jpg);
+    background-attachment: fixed;
+    backdrop-filter: blur(3px);
+    height: 100vh;
+}
+.navbar{
+    background-color: black;
+    opacity: 0.7;
+    height: 50px;
+}
+.navbar-brand, .nav-link{
+    color: white;
+    
+}
+.navbar-brand:hover, .nav-link:hover{
+    color: yellow;
+    font-size: 1.5em;
+}
+
+
+.c{
+    background-color: green;
+}
+.c:hover{
+    background-color: lightgreen;
+    border: 2px solid green;
+}
+.w{
+    background-color: rgb(0, 110, 255);
+}
+.w:hover{
+    background-color: rgb(106, 146, 255);
+    border: 2px solid rgb(0, 110, 255);
+}
+.e{
+    background-color: rgb(209, 188, 1);
+}
+.e:hover{
+    background-color: yellow;
+    border: 2px solid rgb(209, 188, 1);
+}
+.a{
+    background-color: red;
+}
+.a:hover{
+    background-color: rgb(255, 109, 109);
+    border: 2px solid red;
+}
+
+.card{
+    border: 1px solid black;
+    margin-top: 100px
+}
+.card-header{
+    background-color: rgb(49, 49, 49);
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+.form-control{
+    border: 2px solid darkgray;
+}
+.login{
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+.login:hover{
+    border: 1px solid #000;
+}
+.btn-link{
+    color: rgb(49, 49, 49);
+}
